@@ -1,0 +1,5 @@
+.feature-body{
+    @apply px-40;
+    @apply py-10;
+
+}
