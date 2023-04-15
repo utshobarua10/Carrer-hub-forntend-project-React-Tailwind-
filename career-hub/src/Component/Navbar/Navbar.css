@@ -1,0 +1,15 @@
+.navbar{
+        @apply flex justify-between align-middle;
+           
+    
+}
+.logo{
+    @apply font-bold text-xl;
+    
+}
+
+.middle-bar{
+    @apply flex gap-8 items-center ;
+    @apply text-slate-600;
+
+}

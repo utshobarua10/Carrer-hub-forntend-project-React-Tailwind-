@@ -1,0 +1,5 @@
+.header-body{
+    @apply bg-background;
+    @apply px-40;
+    @apply pt-10;
+}

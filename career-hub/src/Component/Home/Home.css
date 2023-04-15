@@ -1,0 +1,11 @@
+.button{
+    @apply bg-rgba;
+    @apply w-48;
+    @apply h-20;
+    @apply text-xl;
+    @apply text-white;
+
+   
+    
+
+}

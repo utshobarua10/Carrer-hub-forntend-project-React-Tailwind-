@@ -1,0 +1,11 @@
+.main-body{
+    @apply px-40;
+    @apply py-10;
+}
+.categories{
+    
+    @apply flex;   
+    @apply items-center;
+    @apply justify-center
+
+}

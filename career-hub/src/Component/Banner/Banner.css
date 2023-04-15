@@ -1,0 +1,17 @@
+.banner{
+    @apply flex;
+    @apply items-center;
+}
+.banner-body{
+    @apply space-y-5;
+}
+.banner-heading{
+    @apply text-5xl;
+    @apply font-bold;
+}
+.dream-job{
+    @apply text-rgba;
+}
+.banner-sub-heading{
+    @apply text-slate-500;
+}
