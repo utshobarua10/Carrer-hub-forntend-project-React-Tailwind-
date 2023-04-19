@@ -1,0 +1,176 @@
+[
+      {
+        "id": 1,
+        "postName": "Software Engineer",
+        "companyName": "ABC Tech",
+        "jobType": "Full Time",
+        "location": "San Francisco, CA",
+        "salary": "$100,000 - $120,000",
+        "logo" : "https://images.ctfassets.net/hdjgmg8sby1d/7xhuZ0fbAy1mQ9iDgchjh2/a550dd198a53df60a6776910239b720c/1_FPVNRiPprKT9DREP2yTbDQ.jpeg",
+        "jobDescription": "We are seeking a skilled software engineer to join our team and develop high-quality software solutions.",
+        "jobResponsibility": "Design, code, test, debug, and maintain software applications. Collaborate with cross-functional teams to define, design, and ship new features. Troubleshoot and fix software defects and performance issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Science or related field.",
+        "experience": "2-4 years of relevant experience in software development.",
+        "contactInformation": {
+          "phone": "123-456-7890",
+          "email": "jobs@abc-tech.com"
+        }
+      },
+      {
+        "id": 2,
+        "postName": "Remote Software Engineer",
+        "companyName": "XYZ Solutions",
+        "jobType": "Remote",
+        "location": "Remote",
+        "salary": "$90,000 - $110,000",
+        "logo" : "data:image/png;base64,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",
+        "jobDescription": "We are looking for a talented software engineer to work remotely and contribute to the development of our cutting-edge software products.",
+        "jobResponsibility": "Collaborate with team members to design, implement, and test software features. Write clean, efficient, and maintainable code. Participate in code reviews to maintain code quality. Troubleshoot and resolve software defects and issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Science or related field.",
+        "experience": "3-5 years of relevant experience in software development.",
+        "contactInformation": {
+          "phone": "987-654-3210",
+          "email": "jobs@xyz-solutions.com"
+        }
+      },
+      {
+        "id": 3,
+        "postName": "Frontend Software Engineer",
+        "companyName": "123 Web Solutions",
+        "jobType": "Full Time",
+        "location": "New York, NY",
+        "salary": "$80,000 - $100,000",
+        "logo" : "https://123trainingsolutions.com.au/img/123Logo.jpg",
+        "jobDescription": "We are seeking a frontend software engineer to join our team and create user-friendly web applications with modern technologies.",
+        "jobResponsibility": "Develop responsive web applications using HTML, CSS, and JavaScript. Collaborate with UX/UI designers to implement user interfaces. Optimize web applications for performance and scalability. Troubleshoot and debug frontend issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Science or related field.",
+        "experience": "2-3 years of relevant experience in frontend development.",
+        "contactInformation": {
+          "phone": "456-789-0123",
+          "email": "jobs@123websolutions.com"
+        }
+      },
+      {
+        "id": 4,
+        "postName": "Embedded Systems Engineer",
+        "companyName": "EmbeddedTech",
+        "companyLogoUrl": "https://www.example.com/embeddedtech-logo.png",
+        "jobType": "Remote",
+        "location": "Remote",
+        "salary": "$85,000 - $100,000",
+        "logo" : "https://www.shutterstock.com/image-vector/embedded-system-icon-simple-style-260nw-1192195141.jpg",
+        "jobDescription": "We are seeking an experienced embedded systems engineer to join our team and develop embedded systems software for IoT devices.",
+        "jobResponsibility": "Design, develop, and maintain embedded systems software for IoT devices. Collaborate with cross-functional teams to define, design, and implement embedded systems solutions. Optimize embedded systems for performance and reliability. Troubleshoot and resolve embedded systems issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Engineering, Electrical Engineering, or related field.",
+        "experience": "3-5 years of relevant experience in embedded systems development.",
+        "contactInformation": {
+          "phone": "789-012-3456",
+          "email": "jobs@embeddedtech.com"
+        }
+      },
+      {
+        "id": 5,
+        "postName": "Mobile App Developer",
+        "companyName": "MobileTech",
+        "companyLogoUrl": "https://www.example.com/mobiletech-logo.png",
+        "jobType": "Full Time",
+        "location": "Los Angeles, CA",
+        "salary": "$80,000 - $100,000",
+        "logo" : "data:image/png;base64,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",
+        "jobDescription": "We are looking for a talented mobile app developer to join our team and develop cutting-edge mobile applications for iOS and Android platforms.",
+        "jobResponsibility": "Design, develop, and maintain mobile applications for iOS and Android platforms. Collaborate with cross-functional teams to define, design, and implement new app features. Optimize app performance and user experience. Troubleshoot and resolve mobile app issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Science or related field.",
+        "experience": "2-3 years of relevant experience in mobile app development.",
+        "contactInformation": {
+          "phone": "123-456-7890",
+          "email": "jobs@mobiletech.com"
+        }
+      },
+      {
+        "id": 6,
+        "postName": "Full Stack Software Engineer",
+        "companyName": "Tech Solutions Inc.",
+        "companyLogoUrl": "https://www.example.com/tech-solutions-logo.png",
+        "jobType": "Full Time",
+        "location": "Chicago, IL",
+        "salary": "$100,000 - $120,000",
+        "logo" : "https://img.freepik.com/premium-vector/tech-solution-logo_5379-37.jpg",
+        "jobDescription": "We are seeking a full stack software engineer to join our team and develop end-to-end software solutions using modern web technologies.",
+        "jobResponsibility": "Design, develop, and maintain web applications using frontend and backend technologies. Collaborate with cross-functional teams to define, design, and implement new features. Optimize web applications for performance and user experience. Troubleshoot and resolve software issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Science or related field.",
+        "experience": "3-5 years of relevant experience in full stack development.",
+        "contactInformation": {
+          "phone": "456-789-0123",
+          "email": "jobs@tech-solutions.com"
+        }
+      },
+      {
+        "id": 7,
+        "postName": "Embedded Systems Engineer",
+        "companyName": "EmbeddedTech",
+        "logo": "https://www.shutterstock.com/image-vector/embedded-system-icon-simple-style-260nw-1192195141.jpg",
+        "jobType": "Remote",
+        "location": "Remote",
+        "salary": "$85,000 - $100,000",
+        "jobDescription": "We are seeking an experienced embedded systems engineer to join our team and develop embedded systems software for IoT devices.",
+        "jobResponsibility": "Design, develop, and maintain embedded systems software for IoT devices. Collaborate with cross-functional teams to define, design, and implement embedded systems solutions. Optimize embedded systems for performance and reliability. Troubleshoot and resolve embedded systems issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Engineering, Electrical Engineering, or related field.",
+        "experience": "3-5 years of relevant experience in embedded systems development.",
+        "contactInformation": {
+          "phone": "789-012-3456",
+          "email": "jobs@embeddedtech.com"
+        }
+      },
+      {
+        "id": 8,
+        "postName": "Frontend Web Developer",
+        "companyName": "WebTech Solutions",
+        "logo": "https://cdn.dribbble.com/users/5002365/screenshots/15041530/media/ee4f618c0d9fe7cf989d72c3d811be7d.png?compress=1&resize=400x300&vertical=top",
+        "jobType": "Full Time",
+        "location": "New York, NY",
+        "salary": "$70,000 - $90,000",
+        "jobDescription": "We are looking for a skilled frontend web developer to join our team and develop modern and responsive web applications.",
+        "jobResponsibility": "Design, develop, and maintain web applications using frontend technologies. Collaborate with cross-functional teams to define, design, and implement new web features. Optimize web applications for performance and user experience. Troubleshoot and resolve frontend issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Science or related field.",
+        "experience": "2-3 years of relevant experience in frontend web development.",
+        "contactInformation": {
+          "phone": "234-567-8901",
+          "email": "jobs@webtech-solutions.com"
+        }
+      },
+      {
+        "id": 9,
+        "postName": "DevOps Engineer",
+        "companyName": "CloudTech Solutions",
+        "logo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALkAAAChCAMAAACs9u6YAAAAtFBMVEX////u7e24uLjy8fEwMDDx8PDPz8/29fXa2tqjoqLe3d3q6uolJSX8/Pzj4+PV1dU7OzumpqaampoLtN6CgoKzs7OsrKxPT0+Li4vBwcFiYmK8vLwsLCzKysqvr69GRkaWlZWz5/XK7fYdHR3c9Po3Nzd4eHhHR0dqamqHh4dYWFgiu+Gg4vJOyec5wuTx+/1v0+tlZWUArtxwcHAfHx/R8PeP2+7m9/sSEhK96/Z/2O5nz+m1GzMNAAARrUlEQVR4nO1ch5KjuhI1URYZTDDGYCY4MenOesLuzv//15OIkoieDbOvyqfq7vUQ7ENz1OpuNcxmF1xwwfnQDf2rKXwS/BGG6leT+AzknbuzrGdHBl/N5Ewk4sF2ZOfZEve7RPn/0Y2+1E6qboczoPDHbLvNliH31ZwmQT1oKTIzcGIgAMCZ9mkjWs/Q/OdNL29EPv/ApabAcRIAwAjT1RYJxzO+ltowPDEwy49GqiDqCMj0wtzbBeI/LBws8Yaa6RgSVwCbXo2dg7W2Dv+icEqJ1wgdjkAunOiYievA5f8t4cj7UuI1eFvgKCDhSKa/26yRcGLpa2i2QUi8hu8BjkEhnHSFhLPz7X/A9kjih/bo02HYol6OWezsd270BVRpsBKvIKAIoIM6Mr0OYujsTsJfp0rDbEm8gprOhQ7ighBDT7V3a/fvEmXBd0i8gtL4RkLrc9tWZnzoLzXvbxJloKddEq8hOypDHRieE6Mdvm4bp63y95gy4A7acnBuCW2KucCFToTCX9URZtAwNquvCoXNQBy74Z7XSF0QZJjgpEOHc/SfAqL18m/QbIMXN70Sr6DbEagErtiIcX5ihNkrElhq4R9n2aYkIYlPyNoAjIEkSYXAC2WZ9qxgLnEr668nfqq93KSTjuQcU+IkJHBeqDbgMY2Zc4JpHf5iDCaYyXGF5kA34j2ej8I4jmXTnCuKYah4jtQRyOPV5yzb2X5lXB2as4o5BxIN/hXSnOm5mbVeb1apv1w6pmnKcRyGUYQuwvMR7AL4Y5J46MLwlW2+fw/m9XdE/KxhzgF3Lf9p1lIIVznppTfH950PvaTDqek6EBAl1TCU+by4MsT8UO83oU4yl9Qg+NMZh+eeVkt+XgcbKhRCZ9S3YOxWh1oSklOqpmTOgVjc/W6qNIDrOvRg8mIwd6IJA8wnbo1dXWvFnANQS34fza6fFyMmtlMhJ6g+HHVrAjEGwzo4q5lzwmk77zrvN0HaHFrb/FiQhNgZG2HzZp5VYH2LCObKJvuDUQBctyWt4KAEKNAbVkwYV58Ep7lBDXMOhOLyj8VenNU1jGw0x6AoyoODiVlS7/XjZivBHEl9d5w01j+BVOyS4jzPkiUQO3HH3oqiXUkhJMMzkrlgum72nIZ/oH6tbrvzF3teeDYDdrn28ly//KA45DEkc8nzwiWa4cRgZ8u/tyxw3HbrwSxLE4LEO31KlctMGTjUd5DM1dzfqjE87cW1tVpGv60IrIg9cTQKtMufB6bTE7DypYJ9WlEEcymuZaQr/HKFjX+Cssr9eoq9641F5aRKHIBh+52/VIZasU9vJpgLPj2IJNneBaK2Wjq/qBw93Di9+wjLCZHTMYwFO7/zhgN6z2ztw7uN8Oi6v5h3hK7bP0/GRLaGFNMOBpRcCaA1DIiZKOysesi2d3j+Fd6z+OQu7V7qaNwRCbLq22zgV8xDSct6DXMJdg3uCKoArn8lLPDELDbk/ik+5IlqkITCR+bIBNOK7dZ5NXOJCAka8LYqSfNt+mneVT1FhXyPo6KMjhQzd6gjdVgWKXqZC1G7wKgnNoen59P+swGNcKrqKboHexKAKKJKcAKXkMEAnod02HHTG5u3Ywfd94U8YYrWnxyjSrZuQme5J41AuQLJnAkG8DzkdVVtK+bSvJWIArsc9pK6/1zWEVsWOXv0KcYLmbonGQygechsi5xgLvCsWQGs7yJYfqqq4a8z+j7qXstzYKiM0XEw4FVe0JfU7vmkVovDcOOcpu4uxKLfdfIg9KW2aw2PbsUkcavYDOQiGEDzUJfIG+YSe0dUh1owyFbnhjDcQeuaOI2uxFN1WOJ5MGAjh2JEHZ6DZC54dDhj0MsFAHaG1wMwg55yfqdi/LbROUmKHJOLHLvHZiVzRktKalLrHGe79Gi7781ROhRjwLbRcTCw3Fvrvry+YC7JlI5Nx2QWaM506VB7HhjSBmwJAOUDXdRj7eWmb4QVzIWEnHJlR2FvHuDPcOnAfXEHhwXwbMZdzGHngpCs3XzvCzML5tTsGjtG+2vUzWSXbqzGi5QxG89Cs8PoIDztTinffbdz5lJMiCnsIn6GS5c32wm3x4D0QSa74owgGY6gRBIPO4dMUYX2m30oOOyS3GSX7onBJDcEEpuMopq0jgCUZ4ovABN6XZVTzJzIKbw8xurCJJcOhpfaKNCKkf322EJKMGxkWI7vmMAwc6GuY6AYq4/4JJeuOKt0Iu8ZoxjdUehfFmSc0EsQRwZgDj02zs1XW+wyRtBtT+ohPs2le+6RN6TJ0y1IiJyZTOtykac46AE5c2T2iDU7Zl7lFADyXb6pssEEl27uIDw4vhcrE71/3KSXTIYhwXxW1+1yKzJ7QpkdryqGxcQgwGiAOHbpAyW0Aqrlz8I0lD0b2rxsTKBPKCYkjS5EpUPwq5EroGiAnHWwzYtGESbGastlgkvnLDRvzJ1QFwwzTGzoR6Y6op1GMaTRBbNyGknj6IFiJ80MhpgXYjGceJD4JJcubHAtS7JtNe/aM+TIh9AP54MFm7hK3Zu0TlLTKrLniWBMkIj8WodGhO+X0tdLQtzAcZcOgqLwGRWBjyQAgVNi3oYQSb+3VFYppknrBLvREJUwIbP7XMVcwcsd81aM1YVsNcJcz0pBIcUIVTUEAEGdx0PSrxRTpXW1yBFiJr9GZi+Gm27jUobpdLbAMBh36frqVH6SbF8lBxwAUiV9uUP6hWLKDKMROYKZsG0iip3XnXQbeZ/OGKuNCS6dKIdFzpy+jVIufRNLPwlNjqav5JZMsNFR4knUrBSfnWEqs8MUTCSOXXow4uhOWfPZbBTD0EfS96FNSx8kKN3PjS74ZDCm2m0eONNTZ6kdQnUa8Qku3Q0IU3LQ7/5mUvpxLX2sGJTWCSGVEguQLQzk1x+nbpClfaFK+wRjzKUf91RljWcVQwBLXzVDD9bSN2Bs+LriMFNlB3McuqN0CU7wKtXxy+2wS083tO8z0w7FEKbIR65cSl8QeOfZddmcw+g6EyV6N99daaJYsEvP7MEVDMhOVr2KoemjSQs5Htvf33zPGM9jdwTunDBfBsHehSaYqBdpvhxeBvAttjqJFKMMRxW46ZMz5nFkp651c8M6Aa8juQZmagIA0LThTRyjIN4tB1dMPbFdhJeduFMxEu6yFVRFDj3kaXw+nKu6u7UCnzZ6xFYdcQEsLX8GoJxjitkFIwuGV6kjq+PCVJhwdOyNzIyGJ+ZsY87xvPLukqqqfEJRD1sRLIjT5s5OMrukHsSR7gJ511W+1D1H0bEmCGnknKNY6chDIsrqsscQAyFVA0Vml4e8QG4pV+tpoK0R9yyHySmCjCMANAkhzl4oD+ROPEl9ziSoiDiT6SpOog4OJeCM11Ekz7U6A0pZu7k5Jbaf8KE5nnGQVjeYLlEetk7Xo0Gzg0Sb0pDJ7V66+lUV8eUmc51wYppHWJ2jao6CZ3d9g+L4Rp/ZQSiepqXGnYULwxJFqMooXvH5rmCxnzogJlFJSvzuc5HZ424nA0wrm7qKzov7VjQcO7JpVLHucKJRIKo8jN5MohLnJ70XbcBOswtGsJn+WIO53zLVWi41QGGSMlj0RpPU2up2vWKr2kP9x9jsLbVL6ko8p2dHfWYWLGx6OpEK46NwxetXfkXdL3NoSW1Xr2kY0DbYnGB3Zs+xfqQWieKueqeAJ1CcpNo9xi+nJC8u1uDUvjYS4mfDlDY7SLXOhb0hkAtzSCs9PiuP1PM0qUv5hdWLHFowhjqmaqiU2YE/yR8yCJvFUL8delCDCIDK+IzbyannObSgjDYHVr/bpGLIH+4+01xUL0DLcDwmapSfkKU9LBgTTf9gnk4eZ6oNC7Mjf/jJpxlAMSlJHQ+odLMvyjOU20FWN3AJvatnpxdxGqKcA/nD/afb6vOufn+46tdpfKR8Owmx8kNvbgPZOe9JM2R2Bagr6xe6W/jtiffB2dB1HSD6iY/Y+8tla0FsHDL0llNWffoR7tzElD8DEyH24PJ4PLqxMj8Tiufufu05KSl1g7X4aWy3WzHItuefuN64y198dgRl9vyXwPy/fNvBBRdccMEFF1xwwQUXXHDBF+L99fX2qfp8S1eZ9NsfP37Ue2ezp+bz0+17+eEd42nGAq9/1cA1IL36o+l/AIosV48sAqMu5KsTWrP0q4e7xeLu8ect/uvH3d0PYufT2yPaifeWJGcfdw8VxZ93j/nW28fHO4THh5/X1Der2QZjv8f/WrhguNzknxHKQqCaZtv12loVCxvpNuOqU7e9j5FVeP9YfFvc3S2+fbt7RX9eLRb3zc7XR7QT8cL/vhbX+bB4rJh/LO7yq73G14Yu8Nu3xX+k4Y0NriKsNS1P7nH3Uvay3hYomMvBy83astY3LwdcXnVfqiVxw3o5jhB/elgsHq5u31/fHr+9Fcyv6p23j4vFx/XT0/sPdFRhX5L5fw3zt9vb1x9v6PAHgrpu4EqKq1kh/j8uHq20YG7kyPVhbl5ENzaMeGlpuAzpapua+WhR9w1xK1T2/nbNMv9AlEoS6OPPAebFfXpHF/gf+wuO1qzQrzSySwA8a2JZLTdT7kzm73elLSuQzF/vFg86ceDTGPPZ02O5iUCqWfU6OGJODLxordFNLOcwv6qt2sH8jbT/f4vFj1Hms3v2+4aY7zRmidzV9tUIHWX+c7Gg/QHJHI3A13rHfUFvhDm6TR/DzAW9evUIyDSmTwPZXClKrPNR5h/s3SWZPyzu3skdb+PM3x8XD4PMtxnGCo9HdaMxj4O6mhhkAUIWiCPMdYocw1x/bEgiR18M0RHmT2PMkY/EwIt2iqWd6ENdbf1yk+NlPWbzhwGbY5K/3eYBfm9NLGPvjUYh8wIK5EC9MEcyRS39Oqcu677YMcL8dlTnzQ5urzGdVGiEVi8I2owxf6OmTIZ56U4KfJRjmWb+zjA/x7foK43pxTrHKyL10neXZH5FzCuVPyfHdHURDXM8bhp3NMJ8ttSYle9zmKOfqu3145ZhjkRbhV96PZ3el5MpDs7KC6uZ6+gusWJhmZM9PJZmlQ4dRNKZzLHRFz9R4Pp0/V/OCEdcT1XMilje3SNB6NcfdUSCLmfxhrddPVb2xXELOuf2qo5uBphzhcMud2kbX9V1lV/lzaxnMZ/d5yHuAw4Krwrmd485MKufOI58yHc+VhpBpl48PnzgbeXdus7PwfHm4oGd+zG9LcFcDArky3C6q91omyzbaN/3WPHuC8F8LFZEv/uBQ1xEMBfGNQ7Hc+TjEcfu39Dex7fGs18X28oTZvnEuciD+I+rjrVvMuLarcXSoZctWEkmajeIvZtf3FGrlnKNjZaOMkeu7Or+/kdlrNfrEuUj6K9Xb2/313S+k28jRmJxzms7KcJQQ7m+HrVeg6y6HYDJJ15c8Q2rl9Tq8v/n670vuOCCCy644N+H7B6OTMtV7B52TP+yumSOEfJnICIquo52O9fducbQedHuwHYOGUe8gekmVY4Hd7hpUNmcnAPdf+5vT85xS7cNmuyjA0b+wl/qMapZeHTFYElxNZkW23TrOi7zkrLwBh2kZ9TL4qRs5eyGo1xvy6Ggh+JkpTNcfaJsYFoscws/TLBkH8gJmPqrST/FIedPfdr05YTW/oASOyqmzS01XIU2rQPTEOnlL5zTA/qbpjEHQTrI3NlgNqpFdd6Gm2QbzWjmapCNdsaGgbijwkm4yetjK6rg95uYu/nxgL4zoaW6gUAzn5kr8XmsxxQk1jP5+3ZewdazSTYPzmNeHC9taJtbqmHBZyYD0sMgGA3Q6QfQZBEr3KRfQ2OyzZvcBj97cmKKa2PMvVzhET3cQ5Qxpda+NR7j4RcC26kcZpTN9YPlmXxAd/aaohPx5CNVuouOcraMgwPs75tbirmUBZHpW7TfCtHAkoIbyubhMY4Pwz26YRYEJ9rnci7Kb5k35hmrIAvop0CPQZCxPe76idmirOgnyIwdOmtJOw15pWIe1Jt25s9B8DzWBK62H2sBavsBINx7S28SOtr+2WPank1ofbeeb2BP5C5Z6AUXXHDBBf8c/gdO+Yt4jgks/QAAAABJRU5ErkJggg==",
+        "jobType": "Full Time",
+        "location": "San Francisco, CA",
+        "salary": "$100,000 - $120,000",
+        "jobDescription": "We are seeking a DevOps engineer to join our team and implement and manage automated deployment, continuous integration, and release processes.",
+        "jobResponsibility": "Design, implement, and manage automated deployment, continuous integration, and release processes. Collaborate with cross-functional teams to define, design, and implement DevOps solutions. Optimize deployment processes for efficiency and reliability. Troubleshoot and resolve DevOps issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Science or related field.",
+        "experience": "3-5 years of relevant experience in DevOps or related field.",
+        "contactInformation": {
+          "phone": "345-678-9012",
+          "email": "jobs@cloudtech-solutions.com"
+        }
+      },
+      {
+        "id": 10,
+        "postName": "Backend Developer",
+        "companyName": "DataTech Solutions",
+        "logo": "https://www.shutterstock.com/image-vector/globe-data-tech-solution-logo-260nw-2205541993.jpg",
+        "jobType": "Remote",
+        "location": "Remote",
+        "salary": "$80,000 - $95,000",
+        "jobDescription": "We are looking for a skilled backend developer to join our team and develop scalable and efficient backend systems for data-intensive applications.",
+        "jobResponsibility": "Design, develop, and maintain backend systems for data-intensive applications. Collaborate with cross-functional teams to define, design, and implement backend solutions. Optimize backend systems for performance, scalability, and reliability. Troubleshoot and resolve backend issues.",
+        "educationRequirements": "Bachelor's or higher degree in Computer Science or related field.",
+        "experience": "3-5 years of relevant experience in backend development.",
+        "contactInformation": {
+          "phone": "456-789-0123",
+          "email": "jobs@datatech-solutions.com"
+        }
+    }
+      
+]

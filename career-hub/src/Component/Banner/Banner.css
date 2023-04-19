@@ -1,6 +1,8 @@
 .banner{
     @apply flex;
     @apply items-center;
+    @apply px-40;
+    @apply pt-10;
 }
 .banner-body{
     @apply space-y-5;

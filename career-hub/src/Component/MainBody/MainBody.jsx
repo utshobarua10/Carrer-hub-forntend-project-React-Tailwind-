@@ -2,10 +2,12 @@ import React from 'react';
 import './MainBody.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalculator,faLightbulb,faHashtag,faMicrochip } from '@fortawesome/free-solid-svg-icons'
+import { useLoaderData } from 'react-router-dom';
 
 
 
 const MainBody = () => {
+   
     return (
         <div className='main-body '>
             <h3 className='text-2xl font-bold text-center'>Job Category List</h3>

@@ -1,0 +1,4 @@
+.job-container{
+    @apply px-40;
+    @apply pt-10;   
+}
