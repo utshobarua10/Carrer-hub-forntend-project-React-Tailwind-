@@ -1,10 +1,13 @@
 import React from 'react';
 import './Statistics.css'
+import Chart from 'chart.js/auto';
 
 const Statistics = () => {
+    
     return (
-        <div className='stat-body'>
-            <h3>Halo this is from stat</h3>
+        
+        <div>
+
         </div>
     );
 };

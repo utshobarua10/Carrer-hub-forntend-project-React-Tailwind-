@@ -3,6 +3,8 @@ import './JobDetails.css'
 import leftCorner from '../,../../../All Images/Vector-1.png'
 import rightCorner from '../,../../../All Images/Vector.png'
 import { useLoaderData, useParams } from 'react-router-dom';
+import AppliedJobs from '../AppliedJobs/AppliedJobs';
+import { setLocalStorage } from '../../../localStorage';
 
 const JobDetails = () => {
     const data = useLoaderData();
@@ -11,8 +13,9 @@ const JobDetails = () => {
     const [details, setDetails] = useState([]);
 
     const result = data.find(dt=> dt.id==id);
-    console.log(result)
-
+     
+   
+    
 
     return (
         <div>
@@ -36,7 +39,7 @@ const JobDetails = () => {
                 </div>
                 {/* Job brief ends */}
                 {/* Job details */}
-                <div className="job-details space-y-10">
+                <div className="job-details space-y-10 flex-initial w-[1000px]">
                     <div className="full-job-information bg-background p-5 space-y-5">
                     <div className="details">
                         <h3 className='font-bold'>Job details</h3>
@@ -50,8 +53,8 @@ const JobDetails = () => {
                         <h3><span className='font-bold'>Email: </span> Info@gmail.com</h3>
                         <h3><span className='font-bold'>Address: </span> Dhanmodni, Shukrabad, Dhaka -1100</h3>
                     </div>
-
-                <button className='button'>Apply Now</button>
+                
+                <button className='button ml-20' onClick={()=>setLocalStorage(id)}>Apply Now</button>
 
                     </div>
 

@@ -39,7 +39,8 @@ const router = createHashRouter([
     }, 
     {
       path: 'appliedJobs',
-      element: <AppliedJobs></AppliedJobs>
+      element: <AppliedJobs></AppliedJobs>,
+      loader : loaderData
 
     },
     {

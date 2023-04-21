@@ -8,7 +8,7 @@ import JobDetails from '../JobDetails/JobDetails';
 import { Link } from 'react-router-dom';
 
 const SingleJob = (props) => {
-    console.log(props)
+    // console.log(props)
     const{postName, companyName, jobType, location, salary, logo,id} = props.job;
     
     return (

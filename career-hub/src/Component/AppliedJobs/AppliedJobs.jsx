@@ -1,33 +1,78 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDollarSign, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import './AppliedJobs.css'
 import google from '../../All Images/google-1-1 1.png'
 import JobDetails from '../JobDetails/JobDetails';
+import { getLocalStorage } from '../../../localStorage';
+import { Link, useLoaderData, useLocation, useNavigate } from 'react-router-dom';
+
+
 const AppliedJobs = () => {
+    
+
+    const carrerHubDataSet= useLoaderData();
+    // console.log(carrerHubDataSet); 
+    const data = getLocalStorage();
+    const idSet = Object.keys(data)
+    // const [filtered, setFiltered] = useState([])
+    
+    let filtered = [];
+        for(let id of idSet){
+            // console.log(id)
+        const filteredJob = carrerHubDataSet.filter(job=> job.id==id ); 
+        filtered.push(filteredJob[0]);
+    
+        
+
+    }
+
+    const location = useLocation();
+    const navigation = useNavigate();
+
+    const detailsBtn =(id)=>{
+        const {pathname} = location;
+        
+        navigation(`/jobDetails/${id}`)
+        
+    }
+
+    
+    
+
+
+
     return (
+        
         <div>
                 <div className='bg-background h-[200px]'>
                 <h3 className='font-bold text-center '>Applied Jobs</h3>
                 </div>
+                {
+                    filtered.map(filter=> 
+                        
+                        <div key={filter.id} className='applied-single-job space-y-5 flex items-center justify-between'>
+                        
+                            <div className='bg-slate-400 rounded flex justify-center item-center w-[180px] h-[200px]'> <img src={filter.logo} className='mx-auto my-16' alt="" /></div>
+                            
+                            <div className='space-y-5 w-[500px]'>
+                                <h3>{filter.postName} </h3>
+                                <p>{filter.companyName}</p>
+                                <button className='border border-blue-600 text-blue-600'>Remote</button> <button className='border border-blue-600 text-blue-600 ml-10'>Full Time</button> <br/>
+                                <FontAwesomeIcon icon={faLocationDot} ></FontAwesomeIcon> <span>{filter.location}</span>
+                                
+                                <FontAwesomeIcon className='ml-20' icon={faDollarSign}></FontAwesomeIcon> <span>{filter.salary}</span>
+                                
+                            </div>
             
-            <div className='applied-single-job space-y-5 flex items-center justify-between'>
-                <div className='bg-slate-400 w-[180px] h-[180px] rounded'> <img src={google} className='mx-auto my-16' alt="" /></div>
-                
-                <div className='space-y-5'>
-                    <h3>Technical Job Interview </h3>
-                    <p>Google LLC</p>
-                    <button className='border border-blue-600 text-blue-600'>Remote</button> <button className='border border-blue-600 text-blue-600 ml-10'>Full Time</button> <br/>
-                    <FontAwesomeIcon icon={faLocationDot} ></FontAwesomeIcon> <span>Dhaka,Bangladesh</span>
-                    
-                    <FontAwesomeIcon className='ml-20' icon={faDollarSign}></FontAwesomeIcon> <span>Salary 70k-90k</span>
-                    
-                </div>
-
-                <button className='view-details-btn'>View Details</button>
+                                <button className='view-details-btn' onClick={()=>detailsBtn(filter.id)}>View Details</button> 
+                            
+            
+            
+                        </div> )
+                }
 
 
-            </div>
            
 
 
