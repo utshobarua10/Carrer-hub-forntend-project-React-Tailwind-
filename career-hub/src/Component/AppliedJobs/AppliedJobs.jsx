@@ -63,7 +63,7 @@ const AppliedJobs = () => {
 
     return (
         
-        <div>
+        <div className='mb-10'>
                 <div className='bg-background h-[200px]'>
                 <h3 className='font-bold text-center '>Applied Jobs</h3>
                 

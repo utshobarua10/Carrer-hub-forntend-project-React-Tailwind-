@@ -18,6 +18,7 @@ import Banner from './Component/Banner/Banner';
 import AppliedJobs from './Component/AppliedJobs/AppliedJobs';
 import loaderData from './Component/LoadData/LoadData';
 import JobDetails from './Component/JobDetails/JobDetails';
+import Error from './Component/ErrorComponent/Error';
 
 const router = createHashRouter([
 
@@ -25,6 +26,7 @@ const router = createHashRouter([
     path: '/',
     element: <Navbar></Navbar>,
     loader: loaderData,
+    errorElement :<Error></Error>,
     children: [{
       path: '/',
       element: <Home></Home>,
