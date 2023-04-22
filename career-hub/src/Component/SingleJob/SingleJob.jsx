@@ -19,7 +19,7 @@ const SingleJob = (props) => {
                     <p className='text-bold'>{postName}</p>
                     <p className='text-[#757575]'>{companyName}</p>
                     <div className="button-set  space-x-3">
-                        <button className='border border-blue-600 text-blue-600'>Remote</button>
+                        <button className='border border-blue-600 text-blue-600'>{jobType}</button>
                         <button className='button-set border border-blue-600 text-blue-600'>Full time</button>
                     </div>
                     <FontAwesomeIcon icon={faLocationDot}></FontAwesomeIcon>  <span>{location}</span>
