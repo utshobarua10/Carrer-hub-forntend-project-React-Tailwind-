@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDollarSign, faLocationDot } from '@fortawesome/free-solid-svg-icons'
 import google from '../../All Images/google-1-1 1.png';
@@ -13,7 +13,20 @@ import SingleJob from '../SingleJob/SingleJob';
 const Feature = () => {
     
     const data = useLoaderData();
-    const jobs = data;
+    // const jobs = data;
+    const firstJobs  = data.slice(0,6);
+    const [jobs, setJobs] = useState(firstJobs)
+    const secondJobs = data.slice(6)
+    // console.log(secondJobs)
+
+    // setJobs(firstJobs);
+  
+    const allJobs =()=>{
+        setJobs([...jobs,...secondJobs])
+    }
+  console.log(jobs)
+  
+  
     
     return (
         <div className='feature-body'>
@@ -36,7 +49,7 @@ const Feature = () => {
             </div>
 
             <div className="see-all-jobs flex justify-center mt-5">
-            <button className='button'>See All Jobs</button>
+            <button className='button' onClick={allJobs}>See All Jobs</button>
             </div>
 
         </div>
