@@ -12,13 +12,14 @@ import Home from './Component/Home/Home';
 import Header from './Component/Header/Header';
 import Navbar from './Component/Navbar/Navbar';
 import Statistics from './Component/Statistics/Statistics';
-import HomeTest from './Component/HomeTest/HomeTest';
+
 import MainBody from './Component/MainBody/MainBody';
 import Banner from './Component/Banner/Banner';
 import AppliedJobs from './Component/AppliedJobs/AppliedJobs';
 import loaderData from './Component/LoadData/LoadData';
 import JobDetails from './Component/JobDetails/JobDetails';
 import Error from './Component/ErrorComponent/Error';
+import Blogs from './Component/BlogsComponent/Blogs';
 
 const router = createHashRouter([
 
@@ -51,6 +52,9 @@ const router = createHashRouter([
       loader : loaderData
       
       
+    },{
+      path :'/blogs',
+      element : <Blogs></Blogs>
     }
   ]
   }
